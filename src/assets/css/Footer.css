@@ -1,0 +1,57 @@
+footer {
+  margin-top: auto;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foot {
+  text-align: center;
+}
+.icons {
+  & img {
+    width: 30px;
+  }
+}
+.footer_absolute {
+  position: absolute;
+  background: transparent;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  & footer {
+    height: 15vh !important;
+  }
+}
+.our_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999999;
+  background:  #310606;
+  width: 100%;
+  letter-spacing: 1px;
+  padding: 6px;
+  font-size: 1rem;
+ 
+  color: #C2C2C2;
+}
+.our_logo h5{
+  padding-left: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 1140px) {
+  footer {
+    height: 20vh;
+  }
+}
+

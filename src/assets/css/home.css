@@ -1,0 +1,99 @@
+ @font-face {
+  font-family: "Carpenter";
+  src: url("../font/pop/ProtestGuerrilla-Regular.ttf") format("truetype");
+}
+b {
+  font-family: "Carpenter";
+}
+.welcome{
+    font-family: "Carpenter";
+    font-size: 20em;
+}
+.home{
+    height: 130vh;
+    width: 100vw;
+    background: #b3b3b3;
+    
+}
+html{
+    overflow-x: hidden !important;
+    
+    background: #230000;}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav div {
+  display: flex;
+  padding: 1em;
+  gap: 10em;
+}
+nav div a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Neue Montreal";
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+  padding: 2em;
+}
+
+.header .h1 {
+  position: relative;
+  font-family: "Carpenter";
+  font-size: 20vw;
+  color: #2f0000;
+  line-height: 1.125;
+}
+
+
+.overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  display: flex;
+}
+.bar {
+    width: 20vw;
+    height: 105vh;
+    background: #1a1a1a8a;
+}
+.overlay2 {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+  }
+  .bar2 {
+      width: 20vw;
+      height: 105vh;
+      background: #1a1a1a;
+  }
+.counter{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 99;
+    color: #b3b3b3;
+    padding: 0.2em 0.4em;
+    font-size: 20vw;
+    font-family: "Carpenter";
+
+} 
+
+
